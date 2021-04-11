@@ -41,7 +41,9 @@ cuDNN安装比较简单，首先进入[官网](https://developer.nvidia.com/rdp/
 ## pytorch安装
 听闻pytorch容易调试，且搭建网络比较快，而我此前只是用过tensorflow2.0中的keras进行过搭建，因此本次毕设初步打算使用pytorch作为工具，也可能不用呢(￣y▽,￣)╭ 。使用pytorch推荐的conda安装方法
 
-`conda install pytorch torchvision torchaudio cudatoolkit=11.0 -c pytorch`
+```bash
+conda install pytorch torchvision torchaudio cudatoolkit=11.0 -c pytorch
+```
 
 这里我是使用清华镜像源的，是否要加`-c pytorch`还是看你的`.condarc`怎么写的，如果写了`custom_channels`且里面的`pytorch`也是用了清华源的可以加，没有的话就去掉`-c pytorch`，然而我镜像源也下不了（吐了），发现浏览器也下不了，就只能用迅雷接管下载，然后本地安装。
 ```bash
