@@ -3,6 +3,7 @@ title: MinGW编译C++无法输出string
 tags:
   - C++
 top_img: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/mingw64problem/top_img.png
+cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/mingw64problem/top_img.png
 categories: C++
 date: 2021-03-19 14:26:06
 ---

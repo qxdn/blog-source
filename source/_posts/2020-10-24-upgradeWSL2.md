@@ -5,6 +5,7 @@ subtitle: "将WSL1升级到WSL2的踩坑记录"
 date:  2020-10-24
 author: "qxdn"
 top_img: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/post-upgradeWSL/bg.png
+cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/post-upgradeWSL/bg.png
 tags:
     - Windows
     - Linux

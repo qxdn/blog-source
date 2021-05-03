@@ -5,6 +5,7 @@ subtitle: "基于光伏天窗的精细化设计和多感知控制的节能屋顶
 date: 2020-10-19 23:00:00
 author: "qxdn"
 top_img: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/energySavingContest/bg.jpg
+cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/energySavingContest/bg.jpg
 tags: 
     - 节能减排
     - C

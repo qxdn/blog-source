@@ -5,6 +5,7 @@ subtitle: "正式电赛 模拟电磁曲射炮"
 date: 2020-10-19 14:00:00
 author: "qxdn"
 top_img: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/electronicDesignContest/bg.jpg
+cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/electronicDesignContest/bg.jpg
 tags: 
     - 电赛
     - C

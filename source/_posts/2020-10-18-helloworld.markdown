@@ -5,6 +5,7 @@ subtitle: "\"Hello World\""
 date:  2020-10-18
 author: "qxdn"
 top_img: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/post-helloworld/helloworld-bg.jpg
+cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/post-helloworld/helloworld-bg.jpg
 tags:
     - 生活
 categories: 生活
