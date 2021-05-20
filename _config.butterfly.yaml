@@ -131,7 +131,26 @@ cover:
   # left/right/both
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
-  default_cover: "https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/default-bg.jpg"
+  default_cover: 
+    # 图片来源:https://www.pixiv.net/users/6657532
+    - "https://pixiv.cat/89437506.jpg"
+    - "https://pixiv.cat/89937713.jpg"
+    - "https://pixiv.cat/89937761.jpg"
+    - "https://pixiv.cat/87036407.jpg"
+    - "https://pixiv.cat/85633671-1.jpg"
+    - "https://pixiv.cat/85633671-2.jpg"
+    - "https://pixiv.cat/85633671-3.jpg"
+    - "https://pixiv.cat/85633671-4.jpg"
+    - "https://pixiv.cat/85633671-5.jpg"
+    - "https://pixiv.cat/85633671-6.jpg"
+    - "https://pixiv.cat/85633671-7.jpg"
+    - "https://pixiv.cat/85633671-8.jpg"
+    - "https://pixiv.cat/85633671-9.jpg"
+    - "https://pixiv.cat/88129567-1.jpg"
+    - "https://pixiv.cat/88316563-1.jpg"
+    - "https://pixiv.cat/88316563-2.jpg"
+    - "https://pixiv.cat/88620583.jpg"
+    - "https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/default-bg.jpg"
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
