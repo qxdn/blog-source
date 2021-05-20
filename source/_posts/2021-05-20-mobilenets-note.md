@@ -10,6 +10,7 @@ date: 2021-05-20 16:45:44
 
 
 因为听说了MobileNets中的深度可分离卷积的大名，因此拜读了一下论文
+封面《公主连结Re:dive》，作者[QuAn_](https://www.pixiv.net/users/6657532)
 <!--more-->
 
 # 引言
