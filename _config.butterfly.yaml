@@ -159,8 +159,9 @@ error_img:
   post_page: /img/404.jpg
 
 # A simple 404 page
+# 404有问题
 error_404:
-  enable: true
+  enable: false
   subtitle: "Page Not Found"
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
@@ -269,7 +270,7 @@ addThis:
 # Share.js
 # https://github.com/overtrue/share.js
 sharejs:
-  enable: true
+  enable: false
   sites: facebook,twitter,wechat,weibo,qq
 
 # AddToAny
@@ -848,7 +849,7 @@ pangu:
 lazyload:
   enable: true
   field: site # site/post
-  placeholder: /img/loading.gif
+  placeholder: /images/loading.gif
   blur: true
 
 # PWA
