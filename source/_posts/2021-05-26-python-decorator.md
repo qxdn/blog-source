@@ -31,7 +31,7 @@ closure = f()
 print(closure(2))
 ```
 本来在`f()`执行完后，x就会被内存回收，但是内部函数使用了x，因此x内存不会被回收。
-闭包的好处在于函数内的参数不会被内存回收，可以隐藏一些内容，同时避免了命名冲突。缺点在于容易内存无法自动回收，容易溢出。
+闭包的好处在于函数内的参数不会被内存回收，可以隐藏一些内容，同时避免了命名冲突。缺点在于内存无法自动回收，容易溢出。
 
 # 装饰器(decorator)
 先来看看一个简单的装饰器例子
@@ -66,7 +66,7 @@ wapper
 wapper = timer(loop)
 wapper(55555555)
 ```
-可以看到我们使用了一个装饰器来增强了loop方法，为其添加了计算耗时的功能。外部函数传进去的是函数，内部函数传进的是参数。arg和kwarg可以看[这](https://stackoverflow.com/questions/36901/what-does-double-star-asterisk-and-star-asterisk-do-for-parameters)。简单来说就是args是以元组传参，kwargs是以键值对来传参。
+可以看到我们使用了一个装饰器来增强了loop方法，为其添加了计算耗时的功能。外部函数传进去的是函数，内部函数传进的是参数。args和kwargs可以看[这](https://stackoverflow.com/questions/36901/what-does-double-star-asterisk-and-star-asterisk-do-for-parameters)。简单来说就是args是以元组传参，kwargs是以键值对来传参。
 另外这种实现装饰器的方法很简单，但是也有缺陷，就是__name__属性发生了变化。这对一些使用__name__的库来说有缺陷。可以使用自带functools库来完成。
 ## 修复__name__
 ```python
