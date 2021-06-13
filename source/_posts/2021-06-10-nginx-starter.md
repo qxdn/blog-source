@@ -53,7 +53,7 @@ nginx -V #输出nginx版本、编译器和配置参数
 ```
 
 # 配置文件解析
-```nginx.conf
+```nginx
 #运行用户
 #user  nobody;
 #启动进程数
