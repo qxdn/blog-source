@@ -161,9 +161,9 @@ error_img:
 # A simple 404 page
 # 404有问题
 error_404:
-  enable: false
+  enable: true
   subtitle: "Page Not Found"
-  background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
+  background: https://pixiv.cat/76505052.jpg
 
 post_meta:
   page: # Home Page
@@ -435,7 +435,10 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text:
+  custom_text: 
+    - <object data="https://img.shields.io/badge/Frame-Hexo-blue?link=https://hexo.io"></object>
+    - <object data="https://img.shields.io/badge/Theme-butterfly-lightgreen?link=https://butterfly.js.org/"></object>
+    - <object data="https://img.shields.io/badge/CDN-jsDelivr-red?link=https://www.jsdelivr.com/"></object>
   copyright: true # Copyright of theme and framework
 
 # Analysis
@@ -536,7 +539,7 @@ tag_ui: # 留空或 index
 background:
 
 # Footer Background
-footer_bg: false
+footer_bg: true
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom:
@@ -715,8 +718,8 @@ busuanzi:
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: false
-  publish_date:
+  enable: true
+  publish_date: 2020/10/18
 
 # Aside widget - Newest Comments
 newest_comments:
