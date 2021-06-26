@@ -150,7 +150,7 @@ cover:
     - "https://pixiv.cat/88316563-1.jpg"
     - "https://pixiv.cat/88316563-2.jpg"
     - "https://pixiv.cat/88620583.jpg"
-    - "https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/default-bg.jpg"
+    # - "https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/default-bg.jpg"
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)

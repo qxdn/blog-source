@@ -5,10 +5,8 @@ tags:
   - Windows
   - Linux
 categories: web
-top_img: >-
-  https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/nginx/cover.png
-cover: >-
-  https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/nginx/cover.png
+top_img: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/nginx/cover.png
+cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/nginx/cover.png
 date: 2021-06-10 23:57:46
 ---
 
