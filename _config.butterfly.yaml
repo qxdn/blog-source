@@ -150,6 +150,7 @@ cover:
     - "https://pixiv.cat/88316563-1.jpg"
     - "https://pixiv.cat/88316563-2.jpg"
     - "https://pixiv.cat/88620583.jpg"
+    - "https://pixiv.cat/91384932-1.jpg"
     # - "https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/default-bg.jpg"
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
 
@@ -439,6 +440,7 @@ footer:
     - <object data="https://img.shields.io/badge/Frame-Hexo-blue?link=https://hexo.io"></object>
     - <object data="https://img.shields.io/badge/Theme-butterfly-lightgreen?link=https://butterfly.js.org/"></object>
     - <object data="https://img.shields.io/badge/CDN-jsDelivr-red?link=https://www.jsdelivr.com/"></object>
+    - <object data="https://img.shields.io/badge/默认封面-QuAn_-brightgreen?link=https://www.pixiv.net/users/6657532"></object>
   copyright: true # Copyright of theme and framework
 
 # Analysis
