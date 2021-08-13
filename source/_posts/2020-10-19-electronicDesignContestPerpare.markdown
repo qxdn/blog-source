@@ -4,8 +4,8 @@ title: "电赛准备"
 subtitle: "电赛准备期间的经历以及制作的一些项目"
 date: 2020-10-19 12:00:00
 author: "qxdn"
-top_img: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/electronicDesignContestPrepare/bg.png
-cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/electronicDesignContestPrepare/bg.png
+top_img: /images/electronicDesignContestPrepare/bg.png
+cover: /images/electronicDesignContestPrepare/bg.png
 tags: 
     - 电赛
     - C

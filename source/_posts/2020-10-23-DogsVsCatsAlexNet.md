@@ -4,8 +4,8 @@ title: "用AlexNet实现DogsVsCats"
 subtitle: "记录第一次炼丹"
 date:  2020-10-23
 author: "qxdn"
-top_img: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/DogsVsCats/overload.png
-cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/DogsVsCats/overload.png
+top_img: /images/DogsVsCats/overload.png
+cover: /images/DogsVsCats/overload.png
 tags:
     - python
     - tensorflow

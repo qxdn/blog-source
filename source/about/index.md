@@ -2,7 +2,7 @@
 title: about me
 date: 2021-03-15 15:16:40
 comments: false
-top_img: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/about-bg.jpg
+top_img: /images/about-bg.jpg
 ---
 > 蓬生麻中 不扶自直
 

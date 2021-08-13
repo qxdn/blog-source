@@ -2,8 +2,8 @@
 title: tmux vs screen
 tags:
   - Linux
-top_img: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/tmux-vs-screen/top-img.png
-cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/tmux-vs-screen/top-img.png
+top_img: /images/tmux-vs-screen/top-img.png
+cover: /images/tmux-vs-screen/top-img.png
 categories: Linux
 date: 2021-03-28 21:10:26
 ---

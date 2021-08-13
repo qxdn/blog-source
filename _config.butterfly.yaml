@@ -49,6 +49,7 @@ social:
   知乎 fab fa-zhihu: https://www.zhihu.com/people/lu-re-fan-ying
   Bilibili fas fa-bold: https://space.bilibili.com/11674667
   steam fab fa-steam: https://steamcommunity.com/id/1464238196/
+  rss fas fa-rss: /atom.xml
 
 # search (搜索)
 # --------------------------------------
@@ -89,7 +90,7 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/avatar.jpg
+  img: /images/avatar.jpg
   effect: false
 
 # Disable all banner image
@@ -151,7 +152,7 @@ cover:
     - "https://pixiv.cat/88316563-2.jpg"
     - "https://pixiv.cat/88620583.jpg"
     - "https://pixiv.cat/91384932-1.jpg"
-    # - "https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/default-bg.jpg"
+    # - "/images/default-bg.jpg"
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
@@ -882,7 +883,7 @@ inject:
   head:
   # - <link rel="stylesheet" href="/xxx.css">
   - <script src="https://cdn.jsdelivr.net/gh/qxdn/live2d-widget@latest/autoload.js"></script>
-  - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/css/shake-it.css">
+  - <link rel="stylesheet" href="/css/shake-it.css">
   bottom:
     # - <script src="xxxx"></script>
 

@@ -2,8 +2,8 @@
 title: python装饰器
 tags:
   - python
-top_img: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/python-decorator/top_img.png
-cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/python-decorator/top_img.png
+top_img: /images/python-decorator/top_img.png
+cover: /images/python-decorator/top_img.png
 categories: python
 date: 2021-05-26 22:00:04
 ---

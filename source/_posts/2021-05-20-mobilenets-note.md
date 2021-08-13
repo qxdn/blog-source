@@ -2,8 +2,8 @@
 title: MobileNets论文笔记
 tags:
   - 机器学习
-top_img: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/mobilenets-note/top_img.jpg
-cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/mobilenets-note/top_img.jpg
+top_img: /images/mobilenets-note/top_img.jpg
+cover: /images/mobilenets-note/top_img.jpg
 catagories: 机器学习
 date: 2021-05-20 16:45:44
 ---

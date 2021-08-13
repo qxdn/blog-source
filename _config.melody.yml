@@ -136,9 +136,9 @@ cdn:
 
 # Post info settings
 # ---------------
-avatar: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/avatar.jpg
+avatar: /images/avatar.jpg
 
-top_img: "https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/default-bg.jpg" # false or url of img
+top_img: "/images/default-bg.jpg" # false or url of img
 
 top_img_height: 60 # best range: 60 - 100
 

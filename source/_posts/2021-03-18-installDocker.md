@@ -1,7 +1,7 @@
 ---
 title: win10家庭版下安装docker
-top_img: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/installDocker/top.png
-cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/installDocker/top.png
+top_img: /images/installDocker/top.png
+cover: /images/installDocker/top.png
 date: 2021-03-18 16:20:13
 tags:
   - docker

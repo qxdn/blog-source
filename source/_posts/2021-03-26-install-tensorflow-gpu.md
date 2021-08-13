@@ -2,8 +2,8 @@
 title: 安装tensorflow-gpu版本
 tags:
   - 机器学习
-top_img: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/install-tensotflow-gpu/top-img.png
-cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn.github.io@latest/source/images/install-tensotflow-gpu/top-img.png
+top_img: /images/install-tensotflow-gpu/top-img.png
+cover: /images/install-tensotflow-gpu/top-img.png
 categories: 机器学习
 date: 2021-03-26 17:42:15
 ---
