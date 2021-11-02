@@ -6,6 +6,7 @@ tags:
   - yolo
 categories: 机器学习
 date: 2021-06-28 20:10:41
+description: 毕设论文翻译
 ---
 
 

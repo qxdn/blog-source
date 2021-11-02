@@ -7,6 +7,8 @@ categories: 杂项
 top_img: /images/beautify-terminal/cover.png
 cover: /images/beautify-terminal/cover.png
 date: 2021-08-17 18:04:45
+description: 不小心将oh-my-posh从V2升级到了V3，许多东西有了较大变化。此篇博客记录一下主题的修改记录。
+swiper_index: 1
 ---
 
 

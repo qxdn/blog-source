@@ -6,6 +6,8 @@ top_img: /images/tmux-vs-screen/top-img.png
 cover: /images/tmux-vs-screen/top-img.png
 categories: Linux
 date: 2021-03-28 21:10:26
+description: 本文将对tmux与screen命令的使用进行比较，并简单的进行对比
+swiper_index: 8
 ---
 
 

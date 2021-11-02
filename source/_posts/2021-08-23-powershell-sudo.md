@@ -7,6 +7,7 @@ categories: Windows
 top_img: /images/powershell-sudo/cover.png
 cover: /images/powershell-sudo/cover.png
 date: 2021-08-23 15:39:08
+description: 为powershell加一个sudo
 ---
 
 

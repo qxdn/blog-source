@@ -6,6 +6,7 @@ date:  2020-10-23
 author: "qxdn"
 top_img: /images/DogsVsCats/overload.png
 cover: /images/DogsVsCats/overload.png
+description: 复现AlexNet，第一次炼丹
 tags:
     - python
     - tensorflow

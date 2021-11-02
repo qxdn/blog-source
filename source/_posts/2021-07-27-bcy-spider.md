@@ -7,6 +7,8 @@ categories: python
 top_img: /images/bcy-spider/cover.png
 cover: /images/bcy-spider/cover.png
 date: 2021-07-27 22:22:20
+description: 看着半次元的图不错，因此写了个小爬虫
+swiper_index: 6
 ---
 
 

@@ -6,6 +6,8 @@ top_img: /images/mobilenets-note/top_img.jpg
 cover: /images/mobilenets-note/top_img.jpg
 catagories: 机器学习
 date: 2021-05-20 16:45:44
+description: 因为听说了MobileNets中的深度可分离卷积的大名，因此拜读了一下论文
+swiper_index: 4
 ---
 
 

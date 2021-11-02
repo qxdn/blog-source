@@ -8,6 +8,7 @@ categories: web
 top_img: /images/nginx/cover.png
 cover: /images/nginx/cover.png
 date: 2021-06-10 23:57:46
+description: 早就听说了nginx的大名，同时最近的好多处问题都说最好用nginx反向代理解决，因此学习一下。
 ---
 
 

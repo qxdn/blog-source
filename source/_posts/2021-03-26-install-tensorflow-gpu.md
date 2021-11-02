@@ -6,6 +6,7 @@ top_img: /images/install-tensotflow-gpu/top-img.png
 cover: /images/install-tensotflow-gpu/top-img.png
 categories: 机器学习
 date: 2021-03-26 17:42:15
+description: 对于个人而言，还是比较习惯使用tensorflow的keras
 ---
 
 

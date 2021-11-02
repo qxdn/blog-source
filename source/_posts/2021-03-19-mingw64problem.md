@@ -6,6 +6,7 @@ top_img: /images/mingw64problem/top_img.png
 cover: /images/mingw64problem/top_img.png
 categories: C++
 date: 2021-03-19 14:26:06
+description: 记录MinGW的一个问题
 ---
 
 

@@ -7,6 +7,7 @@ categories: javascript
 top_img: /images/node-docker/cover.png
 cover: /images/node-docker/cover.png
 date: 2021-10-24 00:39:14
+description: 被实验室前端项目整裂开的我想起来还有docker这一方法
 ---
 
 

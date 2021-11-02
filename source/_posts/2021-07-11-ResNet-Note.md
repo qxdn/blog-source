@@ -6,6 +6,7 @@ categories: 机器学习
 top_img: /images/ResNet-Note/top_img.png
 cover: /images/ResNet-Note/top_img.png
 date: 2021-07-11 18:07:44
+description: ResNet的论文笔记
 ---
 
 

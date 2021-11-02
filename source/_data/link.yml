@@ -1,0 +1,8 @@
+- class_name: 友情链接
+  class_desc: qxdn的朋友们
+  link_list:
+    - name: Infinite’s Blog
+      link: https://infinite-zh.com/
+      avatar: https://infinite-zh.com/wp-content/uploads/2020/04/知识-150x150.jpg
+      descr: 立志成为Double E的程序猿
+

@@ -6,6 +6,7 @@ date: 2020-10-19 14:00:00
 author: "qxdn"
 top_img: /images/electronicDesignContest/bg.jpg
 cover: /images/electronicDesignContest/bg.jpg
+description: 正式电赛记录
 tags: 
     - 电赛
     - C

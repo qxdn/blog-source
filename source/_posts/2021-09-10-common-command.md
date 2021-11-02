@@ -6,6 +6,7 @@ categories: Linux
 top_img: /images/common-command/cover.png
 cover: /images/common-command/cover.png
 date: 2021-09-10 00:54:41
+description: 讲一下grep、sed和awk命令
 ---
 
 

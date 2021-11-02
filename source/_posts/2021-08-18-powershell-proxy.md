@@ -8,6 +8,7 @@ categories: 杂项
 top_img: /images/powershell-proxy/cover.png
 cover: /images/powershell-proxy/cover.png
 date: 2021-08-18 13:11:57
+description: 本文主要是为powershell、cmd等windows终端设置代理
 ---
 
 

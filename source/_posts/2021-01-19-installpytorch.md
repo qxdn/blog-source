@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "毕业设计（一）环境搭建"
-subtitle: "安装CUDA cuDNN pytorch"
+description: "安装CUDA cuDNN pytorch"
 date:  2021-01-19
 author: "qxdn"
 tags:

@@ -4,6 +4,7 @@ tags:
   - 机器学习
 categories: 机器学习
 date: 2021-09-05 14:21:13
+description: 乘着假期的最后几天刷了一下cs231n
 ---
 
 

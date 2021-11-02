@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "毕业设计（二）darknet编译"
-subtitle: "使用vcpkg编译darknet"
+description: "使用vcpkg编译darknet"
 date:  2021-03-05
 author: "qxdn"
 tags:

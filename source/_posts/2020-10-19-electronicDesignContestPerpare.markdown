@@ -6,6 +6,7 @@ date: 2020-10-19 12:00:00
 author: "qxdn"
 top_img: /images/electronicDesignContestPrepare/bg.png
 cover: /images/electronicDesignContestPrepare/bg.png
+description: 电赛前的准备
 tags: 
     - 电赛
     - C

@@ -6,6 +6,7 @@ date: 2020-10-19 23:00:00
 author: "qxdn"
 top_img: /images/energySavingContest/bg.jpg
 cover: /images/energySavingContest/bg.jpg
+description: 节能减排大赛的准备
 tags: 
     - 节能减排
     - C

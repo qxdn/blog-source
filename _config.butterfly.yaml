@@ -7,15 +7,15 @@
 #   name || link || icon
 
 menu:
-  Home: / || fas fa-home
-  Archives: /archives/ || fas fa-archive
-  Tags: /tags/ || fas fa-tags
-  Categories: /categories/ || fas fa-folder-open
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
-  # Link: /link/ || fas fa-link
-  About: /about/ || fas fa-heart
+  友链: /link/ || fas fa-link
+  关于: /about/ || fas fa-heart
 
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: false
@@ -134,39 +134,39 @@ cover:
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
     # 图片来源:https://www.pixiv.net/users/6657532
-    - "https://pixiv.cat/89437506.jpg"
-    - "https://pixiv.cat/89937713.jpg"
-    - "https://pixiv.cat/89937761.jpg"
-    - "https://pixiv.cat/87036407.jpg"
-    - "https://pixiv.cat/85633671-1.jpg"
-    - "https://pixiv.cat/85633671-2.jpg"
-    - "https://pixiv.cat/85633671-3.jpg"
-    - "https://pixiv.cat/85633671-4.jpg"
-    - "https://pixiv.cat/85633671-5.jpg"
-    - "https://pixiv.cat/85633671-6.jpg"
-    - "https://pixiv.cat/85633671-7.jpg"
-    - "https://pixiv.cat/85633671-8.jpg"
-    - "https://pixiv.cat/85633671-9.jpg"
-    - "https://pixiv.cat/88129567-1.jpg"
-    - "https://pixiv.cat/88316563-1.jpg"
-    - "https://pixiv.cat/88316563-2.jpg"
-    - "https://pixiv.cat/88620583.jpg"
-    - "https://pixiv.cat/91384932-1.jpg"
-    - "https://pixiv.cat/92541207-2.jpg"
+    - "https://pixiv.re/89437506.jpg"
+    - "https://pixiv.re/89937713.jpg"
+    - "https://pixiv.re/89937761.jpg"
+    - "https://pixiv.re/87036407.jpg"
+    - "https://pixiv.re/85633671-1.jpg"
+    - "https://pixiv.re/85633671-2.jpg"
+    - "https://pixiv.re/85633671-3.jpg"
+    - "https://pixiv.re/85633671-4.jpg"
+    - "https://pixiv.re/85633671-5.jpg"
+    - "https://pixiv.re/85633671-6.jpg"
+    - "https://pixiv.re/85633671-7.jpg"
+    - "https://pixiv.re/85633671-8.jpg"
+    - "https://pixiv.re/85633671-9.jpg"
+    - "https://pixiv.re/88129567-1.jpg"
+    - "https://pixiv.re/88316563-1.jpg"
+    - "https://pixiv.re/88316563-2.jpg"
+    - "https://pixiv.re/88620583.jpg"
+    - "https://pixiv.re/91384932-1.jpg"
+    - "https://pixiv.re/92541207-2.jpg"
     # - "/images/default-bg.jpg"
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
   flink: /img/friend_404.gif
-  post_page: /img/404.jpg
+  post_page: /images/404.svg
 
 # A simple 404 page
 # 404有问题
 error_404:
   enable: true
   subtitle: "Page Not Found"
-  background: https://pixiv.cat/76505052.jpg
+  background: https://pixiv.re/76505052.jpg
 
 post_meta:
   page: # Home Page
@@ -254,7 +254,7 @@ anchor: false
 
 # Displays outdated notice for a post (文章過期提醒)
 noticeOutdate:
-  enable: false
+  enable: enable
   style: flat # style: simple/flat
   limit_day: 500 # When will it be shown
   position: top # position: top/bottom
@@ -976,3 +976,19 @@ CDN:
   prismjs_js: https://cdn.jsdelivr.net/npm/prismjs/prism.min.js
   prismjs_lineNumber_js: https://cdn.jsdelivr.net/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js
   prismjs_autoloader: https://cdn.jsdelivr.net/npm/prismjs/plugins/autoloader/prism-autoloader.min.js
+
+
+# hexo-butterfly-swiper
+# see https://akilar.top/posts/8e1264d1/
+swiper:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  enable_page: all # 应用页面
+  timemode: date #date/updated
+  layout: # 挂载容器类型
+    type: id
+    name: recent-posts
+    index: 0
+  default_descr: 再怎么看我也不知道怎么描述它的啦！
+  custom_css: https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/css/swiper.min.css #自定义swiper css依赖
+  custom_js: https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/js/swiper.min.js #自定义swiper js依赖
