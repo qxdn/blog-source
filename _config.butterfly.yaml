@@ -438,11 +438,12 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text: 
-    - <object data="https://img.shields.io/badge/Frame-Hexo-blue?link=https://hexo.io"></object>
-    - <object data="https://img.shields.io/badge/Theme-butterfly-lightgreen?link=https://butterfly.js.org/"></object>
-    - <object data="https://img.shields.io/badge/CDN-jsDelivr-red?link=https://www.jsdelivr.com/"></object>
-    - <object data="https://img.shields.io/badge/默认封面-QuAn_-brightgreen?link=https://www.pixiv.net/users/6657532"></object>
+  custom_text:
+    <p id="hitokoto"><a href="#" id="hitokoto_text">:D 获取中...</a></p>
+    <object data="https://img.shields.io/badge/Frame-Hexo-blue?link=https://hexo.io"></object>
+    <object data="https://img.shields.io/badge/Theme-butterfly-lightgreen?link=https://butterfly.js.org/"></object>
+    <object data="https://img.shields.io/badge/CDN-jsDelivr-red?link=https://www.jsdelivr.com/"></object>
+    <object data="https://img.shields.io/badge/默认封面-QuAn_-brightgreen?link=https://www.pixiv.net/users/6657532"></object>
   copyright: true # Copyright of theme and framework
 
 # Analysis
@@ -501,7 +502,6 @@ site_verification:
   #   content: xxxxxx
   # - name: baidu_site_verification
   #   content: xxxxxxx
-
 
 # Beautify/Effect (美化/效果)
 # --------------------------------------
@@ -882,9 +882,10 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-  # - <link rel="stylesheet" href="/xxx.css">
-  - <script src="https://cdn.jsdelivr.net/gh/qxdn/live2d-widget@latest/autoload.js"></script>
-  - <link rel="stylesheet" href="/css/shake-it.css">
+    # - <link rel="stylesheet" href="/xxx.css">
+    - <script src="https://cdn.jsdelivr.net/gh/qxdn/live2d-widget@latest/autoload.js"></script>
+    - <link rel="stylesheet" href="/css/shake-it.css"/>
+    - <script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
   bottom:
     # - <script src="xxxx"></script>
 
@@ -977,7 +978,6 @@ CDN:
   prismjs_lineNumber_js: https://cdn.jsdelivr.net/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js
   prismjs_autoloader: https://cdn.jsdelivr.net/npm/prismjs/plugins/autoloader/prism-autoloader.min.js
 
-
 # hexo-butterfly-swiper
 # see https://akilar.top/posts/8e1264d1/
 swiper:
@@ -990,5 +990,7 @@ swiper:
     name: recent-posts
     index: 0
   default_descr: 再怎么看我也不知道怎么描述它的啦！
-  custom_css: https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/css/swiper.min.css #自定义swiper css依赖
-  custom_js: https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/js/swiper.min.js #自定义swiper js依赖
+  #custom_css: https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/css/swiper.min.css #自定义swiper css依赖
+  #custom_js: https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/js/swiper.min.js #自定义swiper js依赖
+  custom_css: https://cdn.jsdelivr.net/npm/swiper@4.1.6/dist/css/swiper.min.css #自定义swiper css依赖
+  custom_js: https://cdn.jsdelivr.net/npm/swiper@4.1.6/dist/js/swiper.min.js #自定义swiper js依赖
