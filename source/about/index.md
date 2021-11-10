@@ -10,7 +10,7 @@ top_img: /images/about-bg.jpg
 - 钱旭
 - Email
     - [1464238196@qq.com](mailto:1464238196@qq.com)
-    - 1464238196@whut.com
+    - qianxu1209@zju.edu.cn
 - github:[qxdn](https://www.github.com/qxdn)
 - [钱旭的简历](/othera/qx_cv.pdf)
 
