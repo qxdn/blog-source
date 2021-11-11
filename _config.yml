@@ -117,7 +117,7 @@ markdown_it_plus:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/qxdn/qxdn.github.io
+  repo: git@github.com:qxdn/qxdn.github.io.git,gh-pages
 
 feed:
   enable: true

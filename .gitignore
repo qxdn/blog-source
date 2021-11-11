@@ -6,7 +6,7 @@ node_modules/
 public/
 .deploy*/
 
-package-lock.json
-yarn.lock
-
 .vscode
+
+github-deploy-key
+github-deploy-key.pub
