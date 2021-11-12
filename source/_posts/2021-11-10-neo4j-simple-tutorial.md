@@ -7,7 +7,7 @@ tags:
 categories: javascript
 description: 因为学长需要使用知识图谱，并在前端进行可视化。因此在此简单的介绍一下neo4j的操作和可视化
 cover: /images/neo4j-simple-tutorial/cover.png
-swiper: 7
+swiper_index: 7
 date: 2021-11-10 21:28:35
 ---
 
