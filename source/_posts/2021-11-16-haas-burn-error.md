@@ -54,7 +54,7 @@ git clone https://github.com/alibaba/AliOS-Things.git -b dev_3.1.0_haas
 ```
 ![](/images/haas-burn-error/clean-error.png)
 
-这个问题倒是比较常见，因为Windows的EOL(End of Line)是由回车CR和换行LF组成，这也是为什么我们需要在串口输出中加上\r\b，而Linux中的EOL是LF。因此在Linux中运行Windows中写的文件会有这个问题。
+这个问题倒是比较常见，因为Windows的EOL(End of Line)是由回车CR和换行LF组成，这也是为什么我们需要在串口输出中加上\r\n才能换行。而Linux中的EOL是LF。因此在Linux中运行Windows中写的文件会有这个问题。
 从错误开头的`/usr/bin/bash`可以发现是Linux的bash，个人推测这个应该是因为我的电脑里面装有wsl2。从makefile看一下需要删除的文件。
 ```makefile
 ifeq ($(OS), Windows_NT)
@@ -65,9 +65,9 @@ ifeq ($(OS), Windows_NT)
 	$(CPRE) if exist aos.map del /f /q aos.map
 ```
 
-观察发现aos_sdk文件夹为*.a应该是到时候要链接的类库，EOL是LF。out文件夹里面是*.d，*.o还有bin文件，基本上为编译中间产物和最终文件，EOL为CRLF。aos.elf和aos.map都是CRLF，因此发现执行`aos make clean`后就删除了aos_sdk中的内容。
+观察发现aos_sdk文件夹为*.a应该是到时候要链接的类库，EOL是LF。out文件夹里面是*.d，*.o还有bin文件，基本上为编译中间产物和最终文件，EOL为CRLF，aos.elf和aos.map的ROL都是CRLF，同时发现执行`aos make clean`后就删除了aos_sdk中的内容。
 
-明白了原因就很容易解决该问题了，看makefile中的命令，应该是用cmd运行。因此只需要在makefile的第一行加上一句`SHELL := C:\Windows\System32\cmd.exe`。指定运行的shell为cmd即可。修改后的运行结果如下。
+明白了原因就很容易解决该问题了。看makefile中的命令，应该是用cmd运行。因此只需要在makefile的第一行加上一句`SHELL := C:\Windows\System32\cmd.exe`。指定运行的shell为cmd即可。修改后的运行结果如下。
 ![](/images/haas-burn-error/clean-success.png)
 
 
