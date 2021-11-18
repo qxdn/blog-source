@@ -13,7 +13,7 @@ date: 2021-11-16 22:41:09
 > 封面《Eスクールライフ》
 
 # 问题描述
-haas100无法进行烧录，报错`Please connect the serial port of th board to the PC,then reset the board.`。
+haas100无法进行烧录，报错`Please connect the serial port of the board to the PC,then reset the board.`。
 
 ![烧录错误](/images/haas-burn-error/error-in-burn.png)
 
@@ -28,7 +28,7 @@ haas100无法进行烧录，报错`Please connect the serial port of th board to
 ![gui错误](/images/haas-burn-error/error-in-gui.png)
 
 考虑到之前有人使用该工具烧录成功过，且该工具是使用git clone下来的。那么可以去github找找看有哪个版本的是烧录的。
-
+> 2021-11-18更新：*闪退原因在于缺少`productline_cfg.xml`文件，下载[productline_cfg.xml](https://raw.githubusercontent.com/alibaba/AliOS-Things/dev_3.1.0_haas/platform/mcu/haas1000/release/write_flash_gui/productline_cfg.xml)并放入`wirte_flash_gui`文件夹即可，不必再下载整份工程*
 ```bash
 git clone https://github.com/alibaba/AliOS-Things.git -b dev_3.1.0_haas
 ```

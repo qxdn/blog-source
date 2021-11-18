@@ -17,7 +17,7 @@ description: 毕设答辩记录
 # 写在前面
 我估计老师在答辩的时候感觉出来我做的比较水，只是因为有督导在前面就给我点面子，最后水了个优秀毕业论文。校优秀就不申请了，嫌麻烦，而且估计更多老师看明白是个水文。
 
-[答辩PPT](/others/答辩PPT.pptx)
+> 答辩PPT: [百度盘](https://pan.baidu.com/s/1V_GZbogIoj9Q_tkY7HfqQw) 提取码: p7yv
 
 
 # 答辩记录

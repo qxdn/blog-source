@@ -155,3 +155,12 @@ githubcalendar:
   calendar_js: https://cdn.jsdelivr.net/gh/Zfour/hexo-github-calendar@1.21/hexo_githubcalendar.js
   plus_style: ""
 
+sitemap:
+  path: sitemap.xml
+  #template: ./sitemap_template.xml
+  rel: false
+  tags: true
+  categories: true
+
+baidusitemap:
+  path: baidusitemap.xml
