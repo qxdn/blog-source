@@ -38,26 +38,26 @@ date: 2021-11-10 21:28:35
 ## 增
 Cypher query增加节点非常简单
 首先来增加一个人物节点
-```Cypher
+```CQL
 CREATE (p:Person{name:"qxdn",age:21}) return p
 ```
 ![](/images/neo4j-simple-tutorial/create-node.png)
 蓝色的就是创建的节点，其中`CREATE`就是创建一个节点或者关系。其中`p`表示的是变量名，后续引用这个节点的时候可以使用这个变量名。其中`{}`为该节点的属性，类似于json。`return`为返回输出（可选）。
 Cypher中的节点表示如下
-```Cypher
+```CQL
 ()                  //匿名节点，无标签
 (p:Person)          //使用变量p和标签Person
 (:Technology)       //无变量，标签为Technology
 (work:Company)      //使用变量work和标签Company
 ```
 接下来创建更多的节点
-```Cypher
+```CQL
 CREATE (p:Person{name:"a",age:21}) return p
 CREATE (p:Person{name:"b",age:21}) return p
 CREATE (p:Person{name:"c",age:21}) return p
 ```
 创建关系
-```Cypher
+```CQL
 MATCH (p1:Person {name: 'qxdn'})
 MATCH (p2:Person {name: 'a'})
 CREATE (p1)-[rel:IS_FRIENDS_WITH{from:2021}]->(p2)
@@ -68,20 +68,20 @@ MERGE (p1)<-[:IS_FRIENDS_WITH{from:2021}]-(p2)
 ![](/images/neo4j-simple-tutorial/rel1.png)
 添加关系的方法还是非常简单的。使用`[]`即可表示关系，`:`区分变量名和标签，同样可以使用`{}`描述关系的属性。需要注意的是这里的关系是有方向的，需要用`-->`或`<--`表示。上图可以很明显的看出来。如果不知道方向可以使用`--`表示，这对与查询来说会更简单。
 此外在创建节点的时候就可以指明关系
-```Cypher
+```CQL
 CREATE (:Person{name:"d"}) -[:IS_FRIENDS_WITH{from:2020}]->(:Person{name:"e"})
 ```
 ## 删
 删除命令也比较简单，但是需要注意的是，NEO4j中删除节点需要改节点没有关联的关系。
 为了有更好的展示效果，先增条数据
-```Cypher
+```CQL
 MATCH (p:Person{name:"qxdn"})
 CREATE (p)-[:BORIN]->(:Country{name:"China"})
 //
 CREATE (:Person{name:"f"}) -[:IS_FRIENDS_WITH{from:2020}]->(:Person{name:"g"})
 ```
 ![](/images/neo4j-simple-tutorial/before-delete.png)
-```Cypher
+```CQL
 // 删除关系
 MATCH (:Person {name: 'f'})-[r:IS_FRIENDS_WITH]->(:Person {name: 'g'})
 DELETE r
@@ -105,7 +105,7 @@ SET n.age = null
 
 ## 查
 先执行一下语句增加节点
-```Cypher
+```CQL
 //
 CREATE (:Country{name:"China"})
 // 
@@ -131,7 +131,7 @@ MERGE (p)-[:BORN_IN]->(c)
 查询语句主要靠`MATCH`关键词，其功能类似于sql中的`SELECT`
 
 查询所有节点，只输出25个避免过多节点。
-```Cypher
+```CQL
 MATCH (n) 
 RETURN n 
 LIMIT 25
@@ -140,21 +140,21 @@ LIMIT 25
 ![](/images/neo4j-simple-tutorial/match1.png)
 
 查询qxdn出生的国家
-```Cypher
+```CQL
 MATCH (:Person {name: 'qxdn'})-[:BORN_IN]->(c:Country)
 RETURN c
 ```
 ![](/images/neo4j-simple-tutorial/match2.png)
 
 查询qxdn和a做朋友的起始年
-```Cypher
+```CQL
 MATCH (:Person {name: 'qxdn'})-[r:IS_FRIENDS_WITH]->(:Person {name: 'a'})
 RETURN r.from
 ```
 ![](/images/neo4j-simple-tutorial/match3.png)
 
 查询所有中国出生的人
-```Cypher
+```CQL
 MATCH (p:Person)-[:BORN_IN]->(c:Country{name:"China"})
 RETURN p,c
 ```
@@ -162,7 +162,7 @@ RETURN p,c
 ## 改
 改主要是使用`SET`关键词
 修改a的出生国
-```Cypher
+```CQL
 MATCH (p:Person{name:"a"})-[:BORN_IN]-(c:Country{name:"China"})
 SET c.name = "USA"
 RETURN p,c
