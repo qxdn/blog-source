@@ -11,7 +11,6 @@ top_img: /images/about-bg.jpg
     - [1464238196@qq.com](mailto:1464238196@qq.com)
     - qianxu1209@zju.edu.cn
 - github:[qxdn](https://www.github.com/qxdn)
-- [钱旭的简历](/othera/qx_cv.pdf)
 
 ## 教育经历
 - 2014.09 - 2017.07 [浙江省杭州市余杭高级中学](http://www.zjhzyg.net/)（高中）

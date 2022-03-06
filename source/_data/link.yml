@@ -3,10 +3,13 @@
   link_list:
     - name: Infinite’s Blog
       link: https://infinite-zh.com/
-      avatar: https://infinite-zh.com/wp-content/uploads/2020/04/知识-150x150.jpg
+      avatar: https://secure.gravatar.com/avatar/0942fd0b0bc5ed7b905fa4c104e0b1b5?s=64&d=wp_user_avatar&r=g
       descr: 立志成为Double E的程序猿
     - name: Zeromes
       link: https://www.zeromes.cn/
       avatar: https://www.zeromes.cn/wp-content/uploads/2021/08/82284613_p0.png
       descr: 咸鱼大学生
-
+    - name: youmingsama
+      link: https://youmingsama.cn/
+      avatar: https://blog.youmingsama.cn/img/avatar.png
+      descr: 摸鱼大师
