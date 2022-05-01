@@ -5,8 +5,7 @@ tags:
   - Windows
   - Terminal
 categories: 杂项
-top_img: /images/powershell-proxy/cover.png
-cover: /images/powershell-proxy/cover.png
+cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.1.6/cover.png
 date: 2021-08-18 13:11:57
 description: 本文主要是为powershell、cmd等windows终端设置代理
 ---
@@ -26,7 +25,7 @@ description: 本文主要是为powershell、cmd等windows终端设置代理
 ```powershell
 netsh winhttp show proxy
 ```
-![](/images/powershell-proxy/show-proxy.png)
+![](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.1.6/show-proxy.png)
 
 可以虽然我设置了VPN（非全局模式），但是其依然显示直接连接
 
@@ -38,7 +37,7 @@ netsh winhttp set proxy 127.0.0.1:41091
 # or
 netsh winhttp import proxy source=ie
 ```
-![](/images/powershell-proxy/set-proxy.png)
+![](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.1.6/set-proxy.png)
 
 下面这个不用管理员权限也可，不过无法直接查看。第一次遇见是在vcpkg中使用
 ```powershell
@@ -50,7 +49,7 @@ $env:HTTPS_PROXY="https://127.0.0.1:41091"
 ```powershell
 netsh winhttp reset proxy
 ```
-![](/images/powershell-proxy/reset-proxy.png)
+![](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.1.6/reset-proxy.png)
 
 # 参考文献
 [Using PowerShell Behind a Proxy Server](http://woshub.com/using-powershell-behind-a-proxy/)

@@ -3,8 +3,7 @@ title: 远程文件拷贝
 tags:
   - Linux
 categories: Linux
-top_img: /images/remote-copy/cover.jpg
-cover: /images/remote-copy/cover.jpg
+cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.1.0/cover.jpg
 date: 2021-11-02 18:45:48
 description: 实验室分配了服务器，有必要了解以下远程数据的拷贝
 ---
@@ -58,13 +57,13 @@ scp local_file remote_username@remote_ip:remote_folder
 # or 
 scp local_file remote_username@remote_ip:remote_file 
 ```
-![](/images/remote-copy/copy_file_to_remote.png)
+![](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.1.0/copy_file_to_remote.png)
 
 ### 本地目录复制到远程
 ```bash
 scp -r local_folder remote_username@remote_ip:remote_folder 
 ```
-![](/images/remote-copy/copy_folder_to_remote.png)
+![](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.1.0/copy_folder_to_remote.png)
 
 ### 远程文件复制到本地
 ```bash
@@ -72,13 +71,13 @@ scp remote_username@remote_ip:remote_file local_file
 # or 
 scp remote_username@remote_ip:remote_file local_folder 
 ```
-![](/images/remote-copy/copy_file_from_remote.png)
+![](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.1.0/copy_file_from_remote.png)
 
 ### 远程目录复制到本地
 ```bash
 scp -r remote_username@remote_ip:remote_folder local_folder 
 ```
-![](/images/remote-copy/copy_folder_from_remote.png)
+![](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.1.0/copy_folder_from_remote.png)
 
 # sftp
 在看scp命令文档的适合发现了里面有写sftp(secure file transfer program)。出于好奇，便查询一下sftp的使用方法。
@@ -99,7 +98,7 @@ sftp -b batchfile [user@]host
 ```bash
 sftp -P port user@ip
 ```
-![](/images/remote-copy/sftp_connect.png)
+![](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.1.0/sftp_connect.png)
 
 ### 获取远程文件
 ```bash
@@ -107,7 +106,7 @@ sftp> get remoteFile
 sftp> get remoteFile localFile
 sftp> get -r someDirectory
 ```
-![](/images/remote-copy/sftp_get.png)
+![](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.1.0/sftp_get.png)
 
 ### 上传本地文件
 ```bash
@@ -115,7 +114,7 @@ sftp> put localFile
 sftp> get localFile remoteFile
 sftp> put -r localDirectory
 ```
-![](/images/remote-copy/sftp_put.png)
+![](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.1.0/sftp_put.png)
 
 # 参考资料
 [Linux scp命令](https://www.runoob.com/linux/linux-comm-scp.html)

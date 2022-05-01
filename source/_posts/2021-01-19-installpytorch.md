@@ -21,7 +21,7 @@ categories: 机器学习
 - [tensorflow](https://tensorflow.google.cn/install/source_windows) (换成English可以看最新支持)
 - [pytorch](https://pytorch.org/get-started/locally/)
 
-![GPU信息](/images/GraduationProject/GPUInfo.png)
+![GPU信息](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.2.3/GPUInfo.png)
 
 如果发现自己安装的版本没有已经构建好的版本还有两种方法。
 - 自行从源码编译，这点不推荐，想起来我之间自己在树莓派上面编译opencv的经历颜文字(ಥ _ ಥ)，强烈不推荐。
@@ -29,7 +29,7 @@ categories: 机器学习
 
 重装CUDA比较简单,见下图中的NVIDIA应用除了`NVIDIA的图形驱动程序`和`NVIDIA Physx系统软件`都卸载就行。如果下不动的就使用迅雷11，新版迅雷配合网盘简直神一般的体验。
 
-![GPU信息](/images/GraduationProject/uninstall.png)
+![GPU信息](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.2.3/uninstall.png)
 
 
 安装完成后可以在命令行里面使用`nvcc -V`看看结果。
@@ -52,7 +52,7 @@ conda install --use-local cudatoolkit-11.0.221-h74a9793_0.conda
 conda install --use-local pytorch-1.7.1-py3.8_cuda110_cudnn8_0.tar.bz2
 ```
 然后进行测试
-![verify](/images/GraduationProject/verify.png)
+![verify](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.2.3/verify.png)
 
 ## 后记
 环境的搭建就到此为止，安装并不难，只是我没想到我尽然会连镜像源都下不动😩。后续视情况可能会使用GPU服务器，但是现在先在本地收集数据集和预先学习。

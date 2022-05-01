@@ -9,8 +9,7 @@ tags:
     - javascript
     - 树莓派
 categories: 杂项
-top_img: /images/source-mirror/cover.png
-cover: /images/source-mirror/cover.png
+cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.1.9/cover.png
 description: 为了制作魔镜，重装了树莓派系统。因为要将各种软件源设置镜像源，因此写这样一条博客方便自己查询
 swiper_index: 10
 ---

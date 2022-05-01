@@ -5,8 +5,7 @@ tags:
   - Windows
   - Linux
 categories: web
-top_img: /images/nginx/cover.png
-cover: /images/nginx/cover.png
+cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.2.6/cover.png
 date: 2021-06-10 23:57:46
 description: 早就听说了nginx的大名，同时最近的好多处问题都说最好用nginx反向代理解决，因此学习一下。
 ---
@@ -19,7 +18,7 @@ description: 早就听说了nginx的大名，同时最近的好多处问题都�
 
 # 引言
 nginx（engine X）是一个高性能web服务器，也是一个反向代理服务器。对于用户来说只知道反向代理服务器，而不知道其背后的服务器集群，因此可以解决跨域问题。
-![Reverse proxy](/images/nginx/Reverse_proxy.jpg)
+![Reverse proxy](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.2.6/Reverse_proxy.jpg)
 
 # 常用命令
 ## 启动

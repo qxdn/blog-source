@@ -2,8 +2,7 @@
 title: python装饰器
 tags:
   - python
-top_img: /images/python-decorator/top_img.png
-cover: /images/python-decorator/top_img.png
+cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.2.7/top_img.png
 categories: python
 date: 2021-05-26 22:00:04
 description: 由于前几天了解到了python的装饰器，感觉有点点类似于AOP思想，因此记录一下学习笔记

@@ -5,7 +5,7 @@ tags:
   - javascript
   - sass
 categories: javascript
-cover: /images/nodesass2dartsass/cover.png
+cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.0.2/cover.png
 description: >-
   之前实验室流传下来的项目因为nodejs的版本不一致，导致node-sass这个模块一直装不上。之前一直用docker运行，但是现在需要大量改动，使用docker方便部署但是不方便开发。因此解决该问题很重要。
 date: 2022-04-09 16:23:08
@@ -17,7 +17,7 @@ date: 2022-04-09 16:23:08
 # 问题描述
 使用`yarn install`命令的时候无法安装依赖，具体问题如下
 
-![error](/images/nodesass2dartsass/error.png)
+![error](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.0.2/error.png)
 
 
 ```log
@@ -51,7 +51,7 @@ error D:\Code\zju_project\2021\temp\alsprj_fe\node_modules\node-sass: Command fa
 yarn add node-sass@npm:dart-sass
 ```
 
-![运行结果](/images/nodesass2dartsass/result.png)
+![运行结果](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.0.2/result.png)
 
 安装完成，运行`yarn start`可以看到项目正常运行
 

@@ -2,8 +2,7 @@
 title: 安装tensorflow-gpu版本
 tags:
   - 机器学习
-top_img: /images/install-tensotflow-gpu/top-img.png
-cover: /images/install-tensotflow-gpu/top-img.png
+cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.3.3/top-img.jpg
 categories: 机器学习
 date: 2021-03-26 17:42:15
 description: 对于个人而言，还是比较习惯使用tensorflow的keras

@@ -6,7 +6,7 @@ tags:
 categories: python
 description: 我觉得米游社的COS图和同人图质量很高，我很喜欢。因此写了个小小的爬虫。
 date: 2021-11-12 10:21:43
-cover: /images/mihoyo-bbs-crawler/cover.png
+cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.0.7/cover.png
 ---
 
 > 封面《悠久のカンパネラ》
@@ -18,16 +18,16 @@ cover: /images/mihoyo-bbs-crawler/cover.png
 
 # 关闭Debug模式
 首先先分析原神的页面，打开原神的[COS页面](https://bbs.mihoyo.com/ys/home/49)，一如既往的打开调试页面。
-![](/images/mihoyo-bbs-crawler/f12.png)
+![](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.0.7/f12.png)
 可以看到米游社对分析源代码做了一些防范，分析时会始终卡在debug页面上。但是这也难不倒我们。直接点击下方的deactivate按钮，即可关闭debug模式。
-![](/images/mihoyo-bbs-crawler/deactivate.png)
+![](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.0.7/deactivate.png)
 
 # 分析请求
 以原神COS的热门图片为例。在调试页面下打开原神COS页面的热门图片，分析其中的请求。从网页源代码中可以发现米游社是一个动态页面，所有的内容都是向服务器动态请求。因此在network界面中找到含有内容json的请求。找到的界面如下。
 
-![request](/images/mihoyo-bbs-crawler/get1.png)
+![request](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.0.7/get1.png)
 
-![preview](/images/mihoyo-bbs-crawler/get-perview.png)
+![preview](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.0.7/get-perview.png)
 
 由此分析请求参数，得到如下参数:
 - api地址: https://bbs-api.mihoyo.com/post/wapi/getForumPostList

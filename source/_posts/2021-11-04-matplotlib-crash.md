@@ -34,7 +34,7 @@ plt.show()
 ```
 ## 问题截图
 可以看到运行结果一篇空白，然后程序崩溃。
-![](/images/matplotlib-crash/screenshot.png)
+![](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.0.9/screenshot.png)
 
 # 解决
 这个问题有点恶心的地方在于基本找不到错误信息，在尝试过降级、重启、重装后也没有解决。在我身边的人同样碰到这个问题的时候，我意识到这不是我个人的问题，于是乎在github的issue找到了解答。问题处在了matplotlib的依赖上。需要将`freestyle`包从`2.11.0`降到`2.10.4`。随后问题解决。
@@ -47,4 +47,5 @@ conda install freetype==2.10.4 --force-reinstall
 
 # 参考资料
 [[Bug]: Matplotlib crashes Python](https://github.com/matplotlib/matplotlib/issues/21511)
+
 [After conda update, python kernel crashes when matplotlib is used](https://stackoverflow.com/questions/69786885/after-conda-update-python-kernel-crashes-when-matplotlib-is-used/69788527#69788527)

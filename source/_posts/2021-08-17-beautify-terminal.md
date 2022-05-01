@@ -4,8 +4,7 @@ tags:
   - Windows
   - Terminal
 categories: 杂项
-top_img: /images/beautify-terminal/cover.png
-cover: /images/beautify-terminal/cover.png
+cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.1.7/cover.png
 date: 2021-08-17 18:04:45
 description: 不小心将oh-my-posh从V2升级到了V3，许多东西有了较大变化。此篇博客记录一下主题的修改记录。
 swiper_index: 1
@@ -37,7 +36,7 @@ Update-Module -Name oh-my-posh -Scope CurrentUser
 ```powershell
 Get-PoshThemes
 ```
-![展示主题](/images/beautify-terminal/list-themes.png)
+![展示主题](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.1.7/list-themes.png)
 
 ## 设置主题
 ```powershell
@@ -227,7 +226,7 @@ oh-my-posh在高版本中的git不显示详细信息，可以通过配置主题�
 
 
 ## 效果图
-![最终效果](/images/beautify-terminal/theme.png)
+![最终效果](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.1.7/theme.png)
 
 
 # 后记

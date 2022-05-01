@@ -2,8 +2,7 @@
 title: MobileNets论文笔记
 tags:
   - 机器学习
-top_img: /images/mobilenets-note/top_img.jpg
-cover: /images/mobilenets-note/top_img.jpg
+cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.2.8/top_img.jpg
 catagories: 机器学习
 date: 2021-05-20 16:45:44
 description: 因为听说了MobileNets中的深度可分离卷积的大名，因此拜读了一下论文
@@ -33,10 +32,10 @@ $$
 \frac{D_K*D_K*M*D_F*D_F+D_F*D_F*M*N}{D_K*D_K*M*N*D_F*D_F} = \frac{1}{N}+\frac{1}{D_K^2}  
 $$
 &emsp;&emsp;由于神经网络中经常使用3*3的卷积核，因此可以减少大约8到9倍的计算量。
-![标准卷积核深度可分离卷积结构对比](/images/mobilenets-note/DW_CONV.png)
+![标准卷积核深度可分离卷积结构对比](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.2.8/DW_CONV.png)
 
 # 实验结果
-这一部分有大量的对比实验详细可以看[原文](https://arxiv.org/abs/1704.04861)。使用全卷积和深度可分离卷积的MobileNet对比如下图，准确率下降了1%，计算量下降到了原来的11%，参数量下降到了4.2%。![全卷积和深度可分离卷积MobileNet对比](/images/mobilenets-note/compare.png)
+这一部分有大量的对比实验详细可以看[原文](https://arxiv.org/abs/1704.04861)。使用全卷积和深度可分离卷积的MobileNet对比如下图，准确率下降了1%，计算量下降到了原来的11%，参数量下降到了4.2%。![全卷积和深度可分离卷积MobileNet对比](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.2.8/compare.png)
 
 # 总结
 &emsp;&emsp;深度可分离卷积只是一种轻量级的网络结果，不是模型压缩方法。但是其降低计算量的效果的理论支持合理有据，虽然个人觉得准确率部分可能有点点夸张，需要后续自行实验验证一下。

@@ -4,8 +4,7 @@ tags:
   - python
   - 爬虫
 categories: python
-top_img: /images/bcy-spider/cover.png
-cover: /images/bcy-spider/cover.png
+cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.2.1/cover.png
 date: 2021-07-27 22:22:20
 description: 看着半次元的图不错，因此写了个小爬虫
 swiper_index: 6
@@ -23,14 +22,14 @@ swiper_index: 6
 # 分析网页
 ## 分析html
 分析被爬的网页肯定是要打开控制台了，按下F12先观察html可以发现在第一个`<script>`标签中存在一个json文件。这个json包含了你的用户信息、圈子信息和图片信息等。因为整个json文件解析后行有点点多，因此这里就放出部分内容。
-![F12分析html](/images/bcy-spider/F12-1.png)
-![html中的json](/images/bcy-spider/html-json.png)
+![F12分析html](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.2.1/F12-1.png)
+![html中的json](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.2.1/html-json.png)
 ## 分析api
 继续分析网络信息，可以发现在向下滚动后可以发现有一个api返回了包含图片信息的接口，其参数结构如下
 `https://www.bcy.net/apiv3/common/circleFeed?circle_id=399&since=rec:2&sort_type=1&grid_type=10`
 经过多次调用可以发现circle_id表示这个圈子的id，如JK、COS有各自的circle_id。而滚动时变化的只有since的参数，表示的是调用第几波。因此请求的时候只需要修改circle_id和since的内容即可
-![F12分析api（过滤了无关内容）](/images/bcy-spider/F12-2.png)
-![api返回的json](/images/bcy-spider/api-json.png)
+![F12分析api（过滤了无关内容）](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.2.1/F12-2.png)
+![api返回的json](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.2.1/api-json.png)
 
 ## 图片格式
 以上图的网址为例子，半次元的图片有多种请求格式，如下所示。此外看到json里面的`format`字段则是表示了图片的格式（有gif的）。

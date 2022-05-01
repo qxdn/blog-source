@@ -4,8 +4,7 @@ tags:
   - powershell
   - Windows
 categories: Windows
-top_img: /images/powershell-sudo/cover.png
-cover: /images/powershell-sudo/cover.png
+cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.1.5/cover.png
 date: 2021-08-23 15:39:08
 description: 为powershell加一个sudo
 ---
@@ -43,13 +42,13 @@ function sudo {
 ```powershell
 winget install gsudo
 ```
-![](/images/powershell-sudo/install.png)
+![](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.1.5/install.png)
 使用`gsudo`无需新建窗口，同时可以通过配置来实现权限缓存。
 ```powershell
 gsudo config CacheMode auto
 ```
-![](/images/powershell-sudo/test1.png)
-![](/images/powershell-sudo/test2.png)
+![](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.1.5/test1.png)
+![](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.1.5/test2.png)
 
 # 参考文献
 [How to sudo on powershell on Windows](https://stackoverflow.com/questions/55314557/how-to-sudo-on-powershell-on-windows)

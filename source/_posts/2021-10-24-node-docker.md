@@ -4,8 +4,7 @@ tags:
   - javascript
   - docker
 categories: javascript
-top_img: /images/node-docker/cover.png
-cover: /images/node-docker/cover.png
+cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.1.1/cover.png
 date: 2021-10-24 00:39:14
 description: 被实验室前端项目整裂开的我想起来还有docker这一方法
 ---
@@ -94,8 +93,8 @@ docker compose up -d
 
 # 结果
 通过`docker`，实验室前端项目总算跑起来了。
-![](/images/node-docker/terminal.png)
-![](/images/node-docker/success.png)
+![](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.1.1/terminal.png)
+![](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.1.1/success.png)
 
 # 参考资料
 [把一个 Node.js web 应用程序给 Docker 化](https://nodejs.org/zh-cn/docs/guides/nodejs-docker-webapp/)

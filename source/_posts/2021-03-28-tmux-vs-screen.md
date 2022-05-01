@@ -2,8 +2,7 @@
 title: tmux vs screen
 tags:
   - Linux
-top_img: /images/tmux-vs-screen/top-img.png
-cover: /images/tmux-vs-screen/top-img.png
+cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.3.2/top-img.png
 categories: Linux
 date: 2021-03-28 21:10:26
 description: 本文将对tmux与screen命令的使用进行比较，并简单的进行对比
@@ -38,7 +37,7 @@ sudo apt install screen
 ```bash
 tmux
 ```
-![效果图](/images/tmux-vs-screen/simple-tmux.png)
+![效果图](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.3.2/simple-tmux.png)
 
 [0]0:zsh* : 意味着现在是session name为0，session number为0，环境为zsh，*意味着当前窗口
 
@@ -54,15 +53,15 @@ tmux new -s <session-name>
 
 ### 竖直分离窗口
 在`tmux`窗口中按下`ctrl+b`然后再按下`%`
-![效果图](/images/tmux-vs-screen/tmux-vertically.png)
+![效果图](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.3.2/tmux-vertically.png)
 
 ### 水平分离窗口
 在`tmux`窗口中按下`ctrl+b`然后再按下`"`
-![效果图](/images/tmux-vs-screen/tmux-horizontally.png)
+![效果图](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.3.2/tmux-horizontally.png)
 
 ### 展示会话编号
 在`tmux`窗口中按下`ctrl+b`然后再按下`q`
-![效果图](/images/tmux-vs-screen/tmux-number.png)
+![效果图](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.3.2/tmux-number.png)
 
 ### 切换窗口
 在`tmux`窗口中按下`ctrl+b`然后再按下`o`
@@ -72,7 +71,7 @@ tmux new -s <session-name>
 
 ### 列出已有tmux
 在`tmux`窗口中按下`ctrl+b`然后再按下`s`
-![效果图](/images/tmux-vs-screen/tmux-list.png)
+![效果图](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.3.2/tmux-list.png)
 
 ### 分离会话
 在`tmux`窗口中按下`ctrl+b`然后再按下`d`或者
@@ -101,13 +100,13 @@ wsl中使用`screen`提示权限不足可以参考本文末尾的[wsl中提示sc
 ```bash
 screen
 ```
-![效果图](/images/tmux-vs-screen/simple-screen.png)
+![效果图](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.3.2/simple-screen.png)
 
 ### 创建终端并运行命令
 ```bash
 screen vi main.c
 ```
-![效果图](/images/tmux-vs-screen/screen-simple-command.png)
+![效果图](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.3.2/screen-simple-command.png)
 
 ### 离开screen终端
 在`screen`窗口中按下`ctrl+a`然后再按下`d`
@@ -117,8 +116,8 @@ screen vi main.c
 ```bash
 screen -ls
 ```
-![效果图](/images/tmux-vs-screen/screen-list.png)
-![效果图](/images/tmux-vs-screen/screen-list2.png)
+![效果图](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.3.2/screen-list.png)
+![效果图](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.3.2/screen-list2.png)
 
 ### 重新连接会话
 ```bash
@@ -127,11 +126,11 @@ screen -r <id>
 
 ### 水平分割
 在`screen`窗口中按下`ctrl+a`然后再按下`|`，只会分割而不会创建新的session。使用`ctrl+a`然后按下`tab`切换窗口，`ctrl+a`然后按下`c`新建session。下同
-![效果图](/images/tmux-vs-screen/screen-horizontally.png)
+![效果图](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.3.2/screen-horizontally.png)
 
 ### screen竖直分割
 在`screen`窗口中按下`ctrl+a`然后再按下`S`。注意大写
-![效果图](/images/tmux-vs-screen/screen-vertically.png)
+![效果图](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.3.2/screen-vertically.png)
 
 ### 分割中切换窗口
 使用`ctrl+a`然后按下`tab`切换窗口

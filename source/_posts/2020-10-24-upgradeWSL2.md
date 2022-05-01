@@ -4,8 +4,7 @@ title: "升级到WSL2"
 description: "将WSL1升级到WSL2的踩坑记录"
 date:  2020-10-24
 author: "qxdn"
-top_img: /images/post-upgradeWSL/bg.png
-cover: /images/post-upgradeWSL/bg.png
+cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.3.6/bg.png
 tags:
     - Windows
     - Linux
@@ -19,20 +18,20 @@ categories: Linux
 
 ## 一、检查版本
 对于x64系统目前的要求是`1903`或者更高,`Build 18362`或者更高。使用`win+R`输入`winver`来检查自己的版本
-![version](/images/post-upgradeWSL/version.png)
+![version](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.3.6/version.png)
 
 ## 二、启动虚拟机功能
 管理员模式启动powershell输入
 ```powershell
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
-![启动虚拟机功能](/images/post-upgradeWSL/enableVMFeature.png)
+![启动虚拟机功能](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.3.6/enableVMFeature.png)
 **然后重启电脑**
 
 ## 三、下载Linux内核升级包
 
 下载最新[升级包](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
-![package](/images/post-upgradeWSL/package.png)
+![package](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.3.6/package.png)
 
 ## 四、设置WSL2作为默认版本
 管理员powershell中运行
@@ -75,7 +74,7 @@ bcdedit /set hypervisorlaunchtype auto
 ```
 
 重新转换
-![转换完成](/images/post-upgradeWSL/converted.png)
+![转换完成](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.3.6/converted.png)
 
 ## 后记
 VMware老版本与Hyper-V冲突，得找个时间去更新到最新版本兼容

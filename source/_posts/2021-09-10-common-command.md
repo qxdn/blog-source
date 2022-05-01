@@ -3,8 +3,7 @@ title: 常用命令--grep sed awk
 tags:
   - Linux
 categories: Linux
-top_img: /images/common-command/cover.png
-cover: /images/common-command/cover.png
+cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.1.4/cover.png
 date: 2021-09-10 00:54:41
 description: 讲一下grep、sed和awk命令
 ---
@@ -45,7 +44,7 @@ grep [-acinv] [--color=auto] '查找字符' filename
 ```bash
 ps -ef | grep java
 ```
-![](/images/common-command/grep.png)
+![](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.1.4/grep.png)
 `grep`除了普通的字符串以外还支持正则表达式，是一个很强大的命令
 
 # sed
@@ -93,7 +92,7 @@ nl test.txt | sed 's/line/new/g'
 # 每行的第一个line换成new
 nl test.txt | sed 's/line/new/1'
 ```
-![](/images/common-command/sed.png)
+![](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.1.4/sed.png)
 
 # awk
 相较于sed常常处理一行数据，awk倾向于以列来处理数据
@@ -125,7 +124,7 @@ awk '$1>2' test.txt
 # 选出第一列等于2，第二列为are
 awk '$1>2 && $2=="Are" {print $1,$2,$3}' test.txt 
 ```
-![](/images/common-command/awk.png)
+![](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.1.4/awk.png)
 
 # 参考文献
 [管道命令](https://wiki.jikexueyuan.com/project/learn-linux-step-by-step/pipe-command.html)

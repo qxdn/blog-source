@@ -4,8 +4,7 @@ title: "用AlexNet实现DogsVsCats"
 subtitle: "记录第一次炼丹"
 date:  2020-10-23
 author: "qxdn"
-top_img: /images/DogsVsCats/overload.png
-cover: /images/DogsVsCats/overload.png
+cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.3.7/overload.png
 description: 复现AlexNet，第一次炼丹
 tags:
     - python
@@ -21,7 +20,7 @@ categories: 机器学习
 ## 前言
 早就听说过tensorflow的大名，但一直没有时间仔细研究，而且一直缺少数据集，也就没怎么了解。同时因为那tensorflow1的复杂静态图一直劝退。如今有了时间，而且tensorflow2更加易懂，因此仔细研究了一下，也就是第一次炼丹。首先是在[kaggle](https://www.kaggle.com/)下载数据集就难到我了，没想到翻了墙还被困在手机号验证。最后只能借助于微软提供的数据集下载。最开始用自己的CPU跑又慢又卡，自从我换了硬盘加了内存以来，好久都没有这么卡过了。
 
-![overload](/images/DogsVsCats/overload.png)
+![overload](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.3.7/overload.png)
 
 随后换上了Google的[colab](https://colab.research.google.com/notebooks/intro.ipynb#),用了免费GPU才知道GPU的好。
 
@@ -96,7 +95,7 @@ plt.show()
 
 
     
-![](/images/DogsVsCats/output_7_0.svg)
+![](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.3.7/output_7_0.svg)
     
 
 
@@ -289,7 +288,7 @@ plot_metric(history,"loss") #结果看可以再练练
 
 
     
-![](/images/DogsVsCats/output_16_0.svg)
+![](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.3.7/output_16_0.svg)
     
 
 
@@ -300,7 +299,7 @@ plot_metric(history,"accuracy")
 
 
     
-![](/images/DogsVsCats/output_17_0.svg)
+![](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.3.7/output_17_0.svg)
     
 
 
@@ -361,7 +360,7 @@ plt.show()
 
 
     
-![](/images/DogsVsCats/output_22_0.svg)
+![](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.3.7/output_22_0.svg)
     
 
 

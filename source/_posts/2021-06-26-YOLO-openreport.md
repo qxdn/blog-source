@@ -40,7 +40,7 @@ description: 毕设开题报告
 （3）YOLO网络
 YOLO是一个目标检测算法，YOLO网络将目标检测问题转换为回归问题，直接利用卷积神经网络预测目标的Bounding Box和各个类别的置信概率，使得算法的计算速度非常快，且YOLO结构简单、模型小可以部署在一些嵌入设备上面。本次毕业设计拟使用收集到的行人车辆数据对YOLO模型进行训练，并根据检测效果调整网络的超参数以做到更好的检测效果。
 ## 技术路线图
-![图1 技术路线图](/images/GraduationProject/roadmap.png)
+![图1 技术路线图](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.2.3/roadmap.png)
 
 # 进度安排
 2021.3.1-2021.3.31 学习深度学习相关知识，设计并开发算法雏形

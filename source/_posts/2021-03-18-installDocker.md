@@ -1,7 +1,6 @@
 ---
 title: win10家庭版下安装docker
-top_img: /images/installDocker/top.png
-cover: /images/installDocker/top.png
+cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.3.5/top.png
 date: 2021-03-18 16:20:13
 tags:
   - docker
@@ -29,12 +28,12 @@ win10家庭版的系统要求如下
 # 安装
 1. 下载[Docker Desktop Installer](https://desktop.docker.com/win/stable/Docker%20Desktop%20Installer.exe)并双击运行
 2. 确保WSL2那个特性打开
-    ![enable WSL2](/images/installDocker/dockerInstallerConfig.png)
+    ![enable WSL2](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.3.5/dockerInstallerConfig.png)
 3. 跟着安装帮助即可
 
 ## 错误
 我就知道安装没有这么容易，果然碰到了问题。
-![error](/images/installDocker/error.png)
+![error](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.3.5/error.png)
 通过`everything`我找到了`install-log.txt`。然而里面的关键信息就这么点。明明已经用管理员运行了，但是还是未授权。
 ```log
 Exception type: System.Exception, Exception message: Component CommunityInstaller.AutoStartAction failed: 尝试执行未经授权的操作。, StackTrace:
@@ -45,7 +44,7 @@ Exception type: System.Exception, Exception message: Component CommunityInstalle
    在 CommunityInstaller.InstallWorkflow.<DoProcessAsync>d__23.MoveNext()
 ```
 就在我一筹莫展的时候，我看到了一个服务器部署win10服务未授权解决的文章，说是360阻断了。于是我尝试将我的联想电脑管家关闭，果然安装成功了。
-![docker](/images/installDocker/docker.png)
+![docker](https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.3.5/docker.png)
 
 # 参考档案
 [docker for win10 pro](https://docs.docker.com/docker-for-windows/install/)
