@@ -5,6 +5,7 @@ tags:
   - javascript
 categories: javascript
 cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.6.1/cover.jpg
+description: 因为之前一直想着加入moc3模型，这样就不用自己做直接用别人的了。最近开始慢慢空起来了可以开始做。
 date: 2023-11-25 15:06:48
 ---
 
