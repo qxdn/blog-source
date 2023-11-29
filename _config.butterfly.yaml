@@ -775,7 +775,7 @@ runtimeshow:
 
 # Aside widget - Newest Comments
 newest_comments:
-  enable: false
+  enable: true
   sort_order: # Don't modify the setting unless you know how it works
   limit: 6
   storage: 10 # unit: mins, save data to localStorage
@@ -789,7 +789,7 @@ newest_comments:
     enable: false
     forum:
     api_key:
-  twikoo: false
+  twikoo: true
   waline: false
 
 # Bottom right button (右下角按鈕)
@@ -914,7 +914,7 @@ snackbar:
 
 # https://instant.page/
 # prefetch (預加載)
-instantpage: false
+instantpage: true
 
 # https://github.com/vinta/pangu.js
 # Insert a space between Chinese character and English character (中英文之間添加空格)
