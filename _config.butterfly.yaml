@@ -979,7 +979,7 @@ inject:
     # - <script src="xxxx"></script>
     # https://github.com/zhheo/Post-Abstract-AI
     - <script>let tianliGPT_postSelector = '\#post \#article-container';let tianliGPT_key = 'e3c69d80334be20b48d6';</script>
-	  - <script src="https://cdn1.tianli0.top/gh/zhheo/Post-Abstract-AI@0.15.2/tianli_gpt.js"></script>
+    - <script src="https://cdn1.tianli0.top/gh/zhheo/Post-Abstract-AI@0.15.2/tianli_gpt.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
