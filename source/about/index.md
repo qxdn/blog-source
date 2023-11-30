@@ -3,7 +3,7 @@ title: about me
 date: 2021-03-15 15:16:40
 top_img: /images/about-bg.jpg
 ---
-> 蓬生麻中,不扶而直
+> 蓬生麻中，不扶自直
 
 ## 个人简介
 - 钱旭
