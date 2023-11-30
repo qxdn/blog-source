@@ -15,6 +15,8 @@ menu:
   归档: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
+  小玩具|| fa-solid fa-gamepad:
+    9nine TTS: https://huggingface.co/spaces/qxdn/tts-9nine || fa-solid fa-microphone
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
@@ -971,8 +973,13 @@ inject:
     - <link rel="stylesheet" href="/css/shake-it.css"/>
     - <script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
     - <script src="/scripts/weather-widget.js" defer></script>
+    # https://github.com/zhheo/Post-Abstract-AI
+    - <link rel="stylesheet" href="https://cdn1.tianli0.top/gh/zhheo/Post-Abstract-AI@0.15.2/tianli_gpt.css">
   bottom:
     # - <script src="xxxx"></script>
+    # https://github.com/zhheo/Post-Abstract-AI
+    - <script>let tianliGPT_postSelector = '\#post \#article-container';let tianliGPT_key = 'e3c69d80334be20b48d6';</script>
+	  - <script src="https://cdn1.tianli0.top/gh/zhheo/Post-Abstract-AI@0.15.2/tianli_gpt.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
