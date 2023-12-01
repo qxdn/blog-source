@@ -3,6 +3,8 @@ title: 用TTS模型做春风学姐的语音合成
 tags:
   - 机器学习
   - 语音合成
+  - gal
+  - 9nine
 categories:
   - 机器学习
 description: 快到生日了，不如让喜欢的角色对自己说生日快乐，直接来一个9nine的春春春的语音合成吧
