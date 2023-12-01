@@ -2,6 +2,8 @@ top:
 
 
 bottom:
+  - name: pixiv 日榜Top50
+    html: '<iframe src="https://pixiv.mokeyjay.com" style="width:240px; height:380px; border: 0"></iframe>'
   - name: 访客来源
     icon: fas fa-globe-asia fa-spin
     order:
