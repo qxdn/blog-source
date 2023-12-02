@@ -1,5 +1,5 @@
 ---
-title: Aszure搭建AList管理网盘
+title: Azure搭建AList管理网盘
 tags:
   - Azure
   - AList
