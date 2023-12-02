@@ -13,7 +13,7 @@ description: 对于个人而言，还是比较习惯使用tensorflow的keras
 <!--more-->
 
 # 安装cuda和cudnn
-安装方法可以见[pytorch的安装](https://qianxu.run/2021/01/18/installpytorch/)，对于tensorflow已有的gpu支持可以见[此](https://tensorflow.google.cn/install/source_windows#gpu)。不提前装cuda和cudnn的方法见[使用conda安装cuda和cudnn](#使用conda安装cuda和cudnn)
+安装方法可以见[pytorch的安装](https://qianxu.run/2021/01/19/installpytorch/)，对于tensorflow已有的gpu支持可以见[此](https://tensorflow.google.cn/install/source_windows#gpu)。不提前装cuda和cudnn的方法见[使用conda安装cuda和cudnn](#使用conda安装cuda和cudnn)
 
 
 # 安装tensorflow-gpu

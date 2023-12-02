@@ -1,5 +1,4 @@
 ---
-layout: drafts
 title: 常用软件镜像源
 date: 2021-08-11 21:27:23
 tags:

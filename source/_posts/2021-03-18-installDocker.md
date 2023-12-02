@@ -51,6 +51,6 @@ Exception type: System.Exception, Exception message: Component CommunityInstalle
 
 [docker for win10 home](https://docs.docker.com/docker-for-windows/install-windows-home/)
 
-[WSL2安装](https://qianxu.run/2020/10/23/upgradeWSL2/)
+[WSL2安装](https://qianxu.run/2020/10/24/upgradeWSL2/)
 
 [灵感](https://blog.csdn.net/qq736150416/article/details/80137675)
