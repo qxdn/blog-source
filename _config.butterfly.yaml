@@ -17,6 +17,7 @@ menu:
   分类: /categories/ || fas fa-folder-open
   小工具|| fa-solid fa-toolbox: 
     监控: https://status.qianxu.run/status/services || fa-solid fa-gauge-simple-high
+    网盘: https://pan.qianxu.run || fa-solid fa-hard-drive
   小玩具|| fa-solid fa-gamepad:
     9nine TTS: https://huggingface.co/spaces/qxdn/tts-9nine || fa-solid fa-microphone
   # List||fas fa-list:
