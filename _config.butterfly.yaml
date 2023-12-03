@@ -12,9 +12,10 @@ nav:
 
 menu:
   首页: / || fas fa-home
-  归档: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
+  文章|| fa-solid fa-note-sticky:
+    归档: /archives/ || fas fa-archive
+    标签: /tags/ || fas fa-tags
+    分类: /categories/ || fas fa-folder-open
   小工具|| fa-solid fa-toolbox: 
     监控: https://status.qianxu.run/status/services || fa-solid fa-gauge-simple-high
     网盘: https://pan.qianxu.run || fa-solid fa-hard-drive
@@ -24,7 +25,7 @@ menu:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
   友人帐: /link/ || fas fa-link
-  关于: /about/ || fas fa-heart
+  关于我: /about/ || fas fa-heart
 
 
 # Code Blocks (代碼相關)
