@@ -49,3 +49,15 @@
       link: https://finisky.github.io/
       avatar: https://finisky.github.io/images/avatar.png
       descr: 互联网技术那些事儿
+
+- class_name: 组织
+  class_desc: qxdn参加的组织
+  link_list:
+    - name: MatchUs
+      link: https://github.com/MatchUs-ZJU
+      avatar: https://avatars.githubusercontent.com/u/98390010
+      descr: MatchUs项目组
+    - name: AiClub-ZJU
+      link: https://github.com/AiClub-ZJU
+      avatar: https://avatars.githubusercontent.com/u/102037828
+      descr: 浙江大学AiClub
