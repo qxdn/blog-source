@@ -49,6 +49,14 @@
       link: https://finisky.github.io/
       avatar: https://finisky.github.io/images/avatar.png
       descr: 互联网技术那些事儿
+    - name: Leet
+      link: https://skyline523.github.io/
+      avatar: https://skyline523.github.io/assets/logo.svg
+      descr: 我会找到办法的，我总有办法
+    - name: Tianli
+      link: https://tianli-blog.club/
+      avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=507249007&spec=640
+      descr: 自知之明是最可贵的知识！
 
 - class_name: 组织
   class_desc: qxdn参加的组织
