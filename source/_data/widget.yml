@@ -1,10 +1,16 @@
 top:
-
+  - class_name: aside aside-count
+    name: 人生倒计时
+    icon: fas fa-hourglass-half
+    order: 5
+    #html: <div id="life-progress" ></div> <script src="https://cdn.jsdelivr.net/gh/qxdn/life-progress@latest/autoload.min.js"></script>
+    html: <div id="life-progress" ></div> <script src="https://jsd.cdn.zzko.cn/gh/qxdn/life-progress@latest/autoload.min.js"></script>
 
 bottom:
   - name: pixiv 日榜Top50
     html: '<iframe src="https://pixiv.mokeyjay.com" style="width:240px; height:380px; border: 0"></iframe>'
+    order: 3
   - name: 访客来源
     icon: fas fa-globe-asia fa-spin
-    order:
+    order: 5
     html: <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5212lnp85ps&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script>

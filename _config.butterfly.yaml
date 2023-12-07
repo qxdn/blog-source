@@ -981,6 +981,7 @@ inject:
     - <script src="/scripts/weather-widget.js" defer></script>
     # https://github.com/zhheo/Post-Abstract-AI
     - <script src="https://jsd.onmicrosoft.cn/gh/qxchuckle/Post-Summary-AI@6.0/chuckle-post-ai.min.js"></script>
+    - <link rel="stylesheet" href="/css/bilibili.css"/>
   bottom:
     # - <script src="xxxx"></script>
     # https://github.com/zhheo/Post-Abstract-AI

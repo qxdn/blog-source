@@ -23,7 +23,9 @@ date: 2023-11-29 10:23:27
 <source  src="https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.6.2/haruka_birthday.wav">
 </audio>
 
-> 测试视频： <iframe src="//player.bilibili.com/player.html?aid=964019251&bvid=BV1MH4y117Dh&cid=1347616172&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+> 测试视频： 
+  <div align="center" class="aspect-ratio">
+<iframe src="//player.bilibili.com/player.html?aid=964019251&bvid=BV1MH4y117Dh&cid=1347616172&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div>
 
 
 # 前言
@@ -440,8 +442,8 @@ python train_ms.py
 # 效果
 
 下面为第 23000iter 的效果，天的声音依然有一些电音
-
-<iframe src="//player.bilibili.com/player.html?aid=918952876&bvid=BV19u4y157p3&cid=1346290722&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+ <div align="center" class="aspect-ratio">
+<iframe src="//player.bilibili.com/player.html?aid=918952876&bvid=BV19u4y157p3&cid=1346290722&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe> </div>
 
 后续继续训练一下
 输入文本 “誕生日おめでとうございます”，输出
@@ -453,7 +455,8 @@ python train_ms.py
 放一个 hugging face 的 demo 链接，可以去体验一下
 [demo](https://huggingface.co/spaces/qxdn/tts-9nine)
 最终效果
-<iframe src="//player.bilibili.com/player.html?aid=964019251&bvid=BV1MH4y117Dh&cid=1347616172&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+  <div align="center" class="aspect-ratio">
+<iframe src="//player.bilibili.com/player.html?aid=964019251&bvid=BV1MH4y117Dh&cid=1347616172&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe> </div>
 
 
 # 后记
