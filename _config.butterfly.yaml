@@ -25,7 +25,9 @@ menu:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
   留言板: /comments || fa-solid fa-comment
-  友人帐: /link/ || fas fa-link
+  友人帐|| fas fa-link:
+    友人帐:  /link/ || fas fa-link
+    朋友圈: /fcircle || fa-solid fa-rss
   关于我: /about/ || fas fa-heart
 
 
