@@ -77,6 +77,14 @@
       link: https://www.zhuangzhi.love
       avatar: https://z1.ax1x.com/2023/10/20/piFQxN8.jpg
       descr: 无远弗届，皆有可能
+    - name: 小橙子
+      link: https://anorange.icu
+      avatar: https://anorange.icu/upload/headjpg.jpg
+      descr: 日落归山海，山海藏深意。
+    - name: 福福不服
+      link: https://ffbf.top
+      avatar: https://ffbf.top/upload/logo3.jpeg 
+      descr: 不服就是不服
 
 - class_name: 组织
   class_desc: qxdn参加的组织
@@ -89,3 +97,7 @@
       link: https://github.com/AiClub-ZJU
       avatar: https://avatars.githubusercontent.com/u/102037828
       descr: 浙江大学AiClub
+    - name: BlogFinder
+      linke: https://bf.zzxworld.com/
+      avatar: https://bf.zzxworld.com/images/logo-v2.png
+      descr: BlogFinder
