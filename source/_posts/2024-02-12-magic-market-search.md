@@ -4,7 +4,7 @@ tags:
   - python
   - 爬虫
 categories: python
-cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.6.6/cover.jpg
+cover: https://cdn.jsdelivr.net/gh/qxdn/qxdn-assert@0.6.6/cover.png
 description: >-
   经常在魔力赏市集捡漏的我发现有人在闲鱼卖魔力赏脚本，b站魔力赏市集自身没有搜索功能，且自带的筛选不是很好用。这样一想，为何我不自己做一个简单的搜索脚本方便我自己后续捡漏
 date: 2024-02-12 15:21:22
