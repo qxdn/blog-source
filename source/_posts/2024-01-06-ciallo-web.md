@@ -37,7 +37,7 @@ date: 2024-01-06 15:03:53
     transform: translate(0, 0);
   }
   100% {
-    transform: translate(-100%, 0);
+    transform: translate(-115%, 0);
   }
 }
 
