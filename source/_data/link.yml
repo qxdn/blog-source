@@ -85,6 +85,10 @@
       link: https://ffbf.top
       avatar: https://ffbf.top/upload/logo3.jpeg 
       descr: 不服就是不服
+    - name: 小旦
+      link: https://satera.cn
+      avatar: https://satera.cn/img/logo.png
+      descr: SNTube Studio
 
 - class_name: 组织
   class_desc: qxdn参加的组织
@@ -101,3 +105,7 @@
       link: https://bf.zzxworld.com/
       avatar: https://bf.zzxworld.com/images/logo-v2.png
       descr: BlogFinder
+    - name: 十年之约
+      link: https://foreverblog.cn/
+      avatar: https://img.foreverblog.cn/logo_en_default.png
+      descr: 十年之约
