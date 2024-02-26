@@ -89,6 +89,10 @@
       link: https://satera.cn
       avatar: https://satera.cn/img/logo.png
       descr: SNTube Studio
+    - name: 浪海导航
+      link: https://www.langhai.net
+      avatar: https://www.langhai.net/assets/images/langhai-logo.png
+      descr: 浪海导航 ~ 收录各种类型的博客以及论坛网站
 
 - class_name: 组织
   class_desc: qxdn参加的组织
