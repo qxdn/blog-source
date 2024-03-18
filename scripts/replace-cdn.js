@@ -1,6 +1,7 @@
 "use strict";
 const { filter } = hexo.extend;
 
+/*
 // 替换 CDN
 filter.register(
   "before_generate",
@@ -43,3 +44,4 @@ filter.register("after_post_render", (data) => {
   }
   return data;
 });
+*/
